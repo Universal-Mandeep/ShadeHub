@@ -31,10 +31,12 @@
 }
 .creater {
   height: 3rem;
-  width: 48%;
+  width: 36%;
   padding: 1rem;
+  padding-bottom: 2rem;
   margin-top: 0.75rem;
   margin-bottom: 1rem;
+  margin-left: 1rem;
   /* background-color: #1e1e22; */
   background-color: #17171b;
   /* border: 1px solid #eeeeee; */
@@ -60,18 +62,37 @@
   color: #aaaaaa;
   font-size: 14px;
   padding-right: 2rem;
+  
   position: relative;
   top: -1rem;
 }
+.creater .creater-email{
+  padding-left: 4%;
+}
+
 .creater .creater-github {
   /* left: 10rem; */
-  padding-left: 33%;
+  padding-left: 10%;
   /* align-items: flex-end; */
 }
 .creater .creater-linkedin {
   /* align-items: flex-end; */
   /* position: relative; */
-  padding-left: 1rem;
+  padding-left: 7%;
   width: fit-content;
   /* left: 1rem; */
+}
+ a{
+  color: #aaaaaa;
+  text-decoration: none;
+  margin: 40px 20px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  
+}
+
+ a:hover{
+  color: #000;
+  background-color: rgb(217, 225, 225);
+  
 }
